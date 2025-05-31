@@ -1,42 +1,47 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./styles/main.scss">
-    <title>Meu Aniverário</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./styles/main.scss" />
+    <title>Meu Aniversário</title>
 </head>
 <body>
     <header class="hero">
-        <h1>Minha festa de Aniverário</h1>
-        <p>Venha comemorar comigo em um dia cheio de alegria e diversão</p>
-        <div class="countdowm" id="countdowm"></div>
-        <a href="#" class="btn">Confirmar Presença</a>
+        <div class="container">
+            <h1>Minha festa de Aniversário</h1>
+            <p>Venha comemorar comigo em um dia cheio de alegria e diversão</p>
+            <p class="hero__text">O meu Aniversário começa em: </p>
+            <div class="countdown" id="countdown"></div>
+            <a href="#" class="btn">Confirmar Presença</a>
+        </div>
     </header>
 
     <section class="about">
         <h2>O que vai rolar?</h2>
         <div class="cards">
             <div class="card">
-                <img src="./imagens/musica.jpg" alt="Música">
+                <img src="./imagens/musica.jpg" alt="Música" />
                 <h3>Música ao vivo</h3>
                 <p>Vai ter muita música boa e animação garantida.</p>
             </div>
             <div class="card">
-                <img src="./imagens/comida.jpg" alt="Comida">
+                <img src="./imagens/comida.jpg" alt="Comida" />
                 <h3>Comidas deliciosas</h3>
                 <p>Doces, salgados e bebidas especiais.</p>
             </div>
             <div class="card">
-                <img src="./imagens/surpresa.jpg" alt="Surpresa">
+                <img src="./imagens/surpresa.jpg" alt="Surpresa" />
                 <h3>Surpresas</h3>
                 <p>Prepare-se para momentos incríveis e muita diversão.</p>
             </div>
         </div>
     </section>
+
     <footer>
         <p>&copy; 2025 Minha Festa. Todos os direitos reservados</p>
     </footer>
+
     <script src="./scripts/main.js"></script>
 </body>
 </html>
